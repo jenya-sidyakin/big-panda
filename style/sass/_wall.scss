@@ -1,0 +1,31 @@
+.feeds-wall{
+	ul{
+		li{
+			list-style: none;
+			    margin-bottom: 35px;
+			.comment{
+				display: flex;
+				.user-gravatar{
+					flex: 0 0 7em;
+					img{
+
+					}
+				}
+				.info-message{
+					display: flex;
+					flex-direction:column;
+					justify-content:center;
+					.mail{
+						font-size: 15px;
+						margin: 0;
+					}
+					.text{
+						margin:0;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+

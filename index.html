@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Panda Is Big</title>
+	<link rel="stylesheet" type="text/css" href="style/css/main.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div ui-view></div>
+	
+	<!-- bower:js --> 
+	<script src="/bower_components/angular/angular.js"></script> 
+	<script src="/bower_components/js-md5/build/md5.min.js"></script> 
+	<script src="/bower_components/jquery/dist/jquery.js"></script> 
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script> 
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script> 
+	<!-- endinject --> 
+	<!-- app modules -->
+		<!-- abstractMd5 -->
+		<script src="./app_modules/abstract-md5/abstractMd5.js"></script>
+		<script src="./app_modules/abstract-md5/md5Service.js"></script>
+		<!-- endabstractMd5 -->
+		<!-- common -->
+		<script src="./app_modules/common/common.js"></script>
+		<script src="./app_modules/common/services/gravatarServices.js"></script>
+		<script src="./app_modules/common/directives/commentDirective.js"></script>
+		<!-- endcommon -->
+		<!-- main app module -->
+		<script src="./app_modules/main/app.js"></script>
+		<script src="./app_modules/main/route.js"></script>
+		<script src="./app_modules/main/mainCtrl.js"></script>
+		<!-- main app module -->
+	<!-- end app modules -->
+</body>
+</html>

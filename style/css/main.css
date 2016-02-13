@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  justify-content: center; }
+  .flex-container .feed-conteiner {
+    border: 1px solid #efefef;
+    width: 55%;
+    min-width: 550px;
+    margin-top: 3em;
+    display: flex !important;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    justify-content: center; }
+    .flex-container .feed-conteiner .user-area {
+      background: #efefef;
+      padding: 3em 3em 2em 3em; }
+      .flex-container .feed-conteiner .user-area form div {
+        display: flex;
+        justify-content: flex-end; }
+    .flex-container .feed-conteiner .filter-feeds {
+      padding: 2em 3em; }
+
+.feeds-wall ul li {
+  list-style: none;
+  margin-bottom: 35px; }
+  .feeds-wall ul li .comment {
+    display: flex; }
+    .feeds-wall ul li .comment .user-gravatar {
+      flex: 0 0 7em; }
+    .feeds-wall ul li .comment .info-message {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .feeds-wall ul li .comment .info-message .mail {
+        font-size: 15px;
+        margin: 0; }
+      .feeds-wall ul li .comment .info-message .text {
+        margin: 0;
+        font-size: 20px; }

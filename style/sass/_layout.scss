@@ -1,0 +1,55 @@
+.flex-container{
+    display: flex;
+    justify-content:center;
+    .feed-conteiner{
+        border: 1px solid #efefef;
+        width: 55%;
+        min-width: 550px;
+        margin-top: 3em;
+        display: flex!important;
+        flex-direction: column;
+        border-radius: 5px;
+        padding-bottom: 30px;
+    justify-content: center;
+    .user-area{
+            background: #efefef;
+            padding: 3em 3em 2em 3em;
+        form{
+            input{
+
+            }
+            div{
+                display: flex;
+                justify-content:flex-end;
+                button{
+
+                }
+            }
+            
+        }
+    }
+    .filter-feeds{
+            padding: 2em 3em;
+        input{
+
+        }
+    }
+    feeds-wall{
+        .comment{
+            .user-gravater{
+                img{
+
+                }
+            }
+            .info-message{
+                .mail{
+
+                }
+                .text{
+
+                }
+            }
+        }
+    }
+}
+}

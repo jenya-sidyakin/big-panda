@@ -1,0 +1,32 @@
+	<div class="container flex-container">	
+		<div class="feed-conteiner">
+			<div class="user-area">
+				<form>
+					<fieldset class="form-group">
+						<input class="form-control" type="text" placeholder="Email" ng-model="mc.mail">
+					</fieldset>
+					<fieldset class="form-group">
+						<textarea rows="4" cols="50" placeholder="Message" class="form-control" ng-model="mc.text"></textarea>
+					</fieldset>
+					<div>
+						<button type="submit" class="btn btn-primary" ng-click="mc.addComment(mc.comment)">
+							Submit
+						</button>	
+					</div>
+					
+				</form>
+			</div>
+			<div class="filter-feeds">
+				<form>
+					<input type="search" class="form-control" placeholder="Filter" ng-model="search">	
+				</form>
+			</div>
+			<div class="feeds-wall">
+				<ul>
+					<li ng-repeat="user in mc.comments |filter:search">
+						<div comment="user"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
